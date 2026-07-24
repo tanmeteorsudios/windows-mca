@@ -1,15 +1,14 @@
-namespace SpriteKind {
-    export const yourconsole = SpriteKind.create()
-    export const yc = SpriteKind.create()
-}
-
 scene.setBackgroundImage(assets.image`
     level
     `)
-let yourconsole1 = sprites.create(assets.image`
-    console
-    `, SpriteKind.yc)
-yourconsole1.setPosition(9, 9)
+let yourconsole = sprites.create(assets.image`console`, SpriteKind.Player)
+yourconsole.setPosition(9, 9)
+controller.A.onEvent(ControllerButtonEvent.Pressed, function a_tusu() {
+    if (mause.overlapsWith(yourconsole)) {
+        game.splash("YAKINDA")
+    }
+    
+})
 let mause = sprites.create(assets.image`
     imlec
     `, SpriteKind.Player)
