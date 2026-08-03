@@ -1,11 +1,20 @@
 music.set_volume(100)
-music.play(music.create_song(assets.song("""acılıs""")), music.PlaybackMode.UNTIL_DONE)
+music.play(music.create_song(assets.song("""
+        acılıs
+        """)),
+    music.PlaybackMode.UNTIL_DONE)
 
+"""
+**************windows kodu***************
+"""
 
+scene.set_background_image(assets.image("""
+    level
+    """))
 
-scene.set_background_image(assets.image("""    level    """))
-
-yourconsole = sprites.create(assets.image("""    console    """), SpriteKind.player)
+yourconsole = sprites.create(assets.image("""
+    console
+    """), SpriteKind.player)
 yourconsole.set_position(9, 9)
 
 kullanicilar = sprites.create(assets.image("""

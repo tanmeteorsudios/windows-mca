@@ -1,7 +1,14 @@
 music.setVolume(100)
-music.play(music.createSong(assets.song`acılıs`), music.PlaybackMode.UntilDone)
-scene.setBackgroundImage(assets.image`    level    `)
-let yourconsole = sprites.create(assets.image`    console    `, SpriteKind.Player)
+music.play(music.createSong(assets.song`
+        acılıs
+        `), music.PlaybackMode.UntilDone)
+/** **************windows kodu*************** */
+scene.setBackgroundImage(assets.image`
+    level
+    `)
+let yourconsole = sprites.create(assets.image`
+    console
+    `, SpriteKind.Player)
 yourconsole.setPosition(9, 9)
 let kullanicilar = sprites.create(assets.image`
         kullanıcılar
