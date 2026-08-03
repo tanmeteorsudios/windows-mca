@@ -1,8 +1,16 @@
+scene.set_background_image(assets.image("""level_startup"""))
+
 music.set_volume(100)
 music.play(music.create_song(assets.song("""
         acılıs
         """)),
     music.PlaybackMode.UNTIL_DONE)
+
+scene.set_background_image(assets.image("""
+    level
+    """))
+pause(1000)
+game.splash("HOS GELDİNİZ")
 
 """
 **************windows kodu***************

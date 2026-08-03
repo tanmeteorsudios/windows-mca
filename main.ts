@@ -1,7 +1,13 @@
+scene.setBackgroundImage(assets.image`level_startup`)
 music.setVolume(100)
 music.play(music.createSong(assets.song`
         acılıs
         `), music.PlaybackMode.UntilDone)
+scene.setBackgroundImage(assets.image`
+    level
+    `)
+pause(1000)
+game.splash("HOS GELDİNİZ")
 /** **************windows kodu*************** */
 scene.setBackgroundImage(assets.image`
     level
