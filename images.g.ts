@@ -3,25 +3,6 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "image1":
-            case "imlec":return img`
-. . . . . . . . . . . . . . . . 
-. f f f f f f . . . . . . . . . 
-. f 1 1 1 1 f . . . . . . . . . 
-. f 1 1 1 f . . . . . . . . . . 
-. f 1 1 f f . . . . . . . . . . 
-. f 1 f f 1 f . . . . . . . . . 
-. f f . . f 1 f . . . . . . . . 
-. . . . . . f 1 f . . . . . . . 
-. . . . . . . f 1 f . . . . . . 
-. . . . . . . . f 1 f . . . . . 
-. . . . . . . . . f f . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "image2":
             case "level":return img`
 6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
@@ -183,20 +164,366 @@ f f f f f f f f f f f f f f f f
 . . . . . f f f f f f . . . . . 
 . . . . . f f . . f f . . . . . 
 `;
+            case "image1":
+            case "imlec":return img`
+. . . . . . . . . . . . . . . . 
+. f f f f f f . . . . . . . . . 
+. f 1 1 1 1 f . . . . . . . . . 
+. f 1 1 1 f . . . . . . . . . . 
+. f 1 1 f f . . . . . . . . . . 
+. f 1 f f 1 f . . . . . . . . . 
+. f f . . f 1 f . . . . . . . . 
+. . . . . . f 1 f . . . . . . . 
+. . . . . . . f 1 f . . . . . . 
+. . . . . . . . f 1 f . . . . . 
+. . . . . . . . . f f . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image6":
+            case "pencere":return img`
+f f f f f f f f f f f f f f f f 
+f 1 1 1 1 1 1 1 1 f . f . f . f 
+f f f f f f f f f f f f f f f f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f f f f f f f f f f f f f f f f 
+`;
         }
         return null;
     })
 
     helpers._registerFactory("animation", function(name: string) {
         switch(helpers.stringTrim(name)) {
-
+            case "wmca":
+            case "anim1":return [img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f f f f f f f f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a c f f f f f f f f f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a c c f f f f f f f f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a c c c f f f f f f f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f c c c f f f f f f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f c c c f f f f f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f c c c f f f f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f f c c c f f f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f f f c c c f f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f f f f c c c f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f f f f f c c c f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f f f f f f c c c f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f f f f f f f c c c a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f f f f f f f f c c a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f f f f f f f f f c a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`, img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 2 2 2 2 2 2 2 7 7 7 7 7 7 7 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f 5 5 5 5 5 5 5 9 9 9 9 9 9 9 f 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a f f f f f f f f f f f f a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
+`];
         }
         return null;
     })
 
     helpers._registerFactory("song", function(name: string) {
         switch(helpers.stringTrim(name)) {
-
+            case "song1":
+            case "acılıs":return hex`0078000408020200001c00010a006400f4016400000400000000000000000000000000050000040c0000000400012c04000800012902001c000c960064006d019001000478002c010000640032000000000a0600050600000004000129`;
         }
         return null;
     })
