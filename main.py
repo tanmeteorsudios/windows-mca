@@ -11,6 +11,8 @@ scene.set_background_image(assets.image("""
     """))
 pause(1000)
 game.splash("HOS GELDİNİZ")
+game.splash("ADMİN")
+pause(1000)
 
 """
 **************windows kodu***************

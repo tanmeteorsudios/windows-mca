@@ -8,6 +8,8 @@ scene.setBackgroundImage(assets.image`
     `)
 pause(1000)
 game.splash("HOS GELDİNİZ")
+game.splash("ADMİN")
+pause(1000)
 /** **************windows kodu*************** */
 scene.setBackgroundImage(assets.image`
     level
