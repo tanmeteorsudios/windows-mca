@@ -3,9 +3,7 @@ music.setVolume(100)
 music.play(music.createSong(assets.song`
         acılıs
         `), music.PlaybackMode.UntilDone)
-scene.setBackgroundImage(assets.image`
-    level
-    `)
+scene.setBackgroundImage(assets.image`level`)
 pause(1000)
 game.splash("HOS GELDİNİZ")
 game.splash("ADMİN")
@@ -22,6 +20,8 @@ let kullanicilar = sprites.create(assets.image`
         kullanıcılar
         `, SpriteKind.Player)
 kullanicilar.setPosition(9, 29)
+let off = sprites.create(assets.image`off`, SpriteKind.Player)
+off.setPosition(9, 50)
 controller.A.onEvent(ControllerButtonEvent.Pressed, function a_tusu() {
     if (mouse.overlapsWith(yourconsole)) {
         game.splash("WİNDOWS MAKECODEACARDE")
@@ -29,6 +29,16 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function a_tusu() {
     } else if (mouse.overlapsWith(kullanicilar)) {
         game.splash("SU AN KULLANICI")
         game.splash("ADMİN")
+    } else if (mouse.overlapsWith(off)) {
+        game.splash("BAY BAY ADMİN")
+        scene.setBackgroundImage(assets.image`level_startup`)
+        sprites.destroy(off)
+        sprites.destroy(kullanicilar)
+        sprites.destroy(yourconsole)
+        sprites.destroy(mouse)
+        forever(function on_forever() {
+            game.splash("KAPATMAK GÜVENLİ")
+        })
     }
     
 })

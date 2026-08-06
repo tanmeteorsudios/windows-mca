@@ -6,7 +6,9 @@
         "device": "*",
         "multiplayer": "*",
         "sprite-scaling": "*",
-        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "sevenseg": "*",
+        "browser-events": "*"
     },
     "files": [
         "README.md",
