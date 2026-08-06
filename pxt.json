@@ -8,7 +8,8 @@
         "sprite-scaling": "*",
         "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
         "sevenseg": "*",
-        "browser-events": "*"
+        "browser-events": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
     },
     "files": [
         "README.md",
