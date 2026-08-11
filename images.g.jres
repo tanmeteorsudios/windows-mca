@@ -34,6 +34,16 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "level"
     },
+    "image7": {
+        "data": "hwQPAA8AAAAAAIiI+A8AAACIiIj4/wgAgIiIiP+PiACAiIiI/4+IAIiIiPj/iIgIiIj//4+IiAiIiI+Ij4iICIiIj4iPiIgIiIiPiI+IiAiIiP//j4iICIiIiIiIiIgIgIiIiIiIiACAiIiIiIiIAACIiIiIiAgAAACIiIgIAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "steam"
+    },
+    "image9": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAIiIiIgAAAAAiIiIiAAAAACIiIiIAAAAAIiIiIgAAAAAiIiIiAAAAABIRESEAAAAAEhERIQAAAAAiEREiAAAAACISISIAAAAAIiIiIgAAAAAiIiIiAAAAACIiIiIAAAAAIiIiIgAAAAAiIiIiAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "youtube"
+    },
     "song1": {
         "data": "0078000408020200001c00010a006400f4016400000400000000000000000000000000050000040c0000000400012c04000800012902001c000c960064006d019001000478002c010000640032000000000a0000050600000004000129",
         "mimeType": "application/mkcd-song",
